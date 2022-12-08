@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CategoryCRUD</title>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.6.1.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
+
+    <style>
+        .genislik{
+            width:300px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                ID => <input type="text" class="form-control genislik" id="txtID" placeholder="ID giriniz" />
+                Name => <input type="text" class=" form-control genislik" id="txtName" placeholder="Kategori ismi" />
+                Description => <input type="text" class="form-control genislik" id="txtDesc" placeholder="Aciklama" />
+
+
+            <hr />
+
+            <input type="button" id="btnAll" class="btn btn-info" value="Kategorileri Getir" />
+            <input type="button" id="btnID" class="btn btn-primary" value="Kategori getir" />
+
+            <hr />
+
+            <input type="button" id="btnAdd" class="btn btn-info" value="Kategori Ekle" />
+            <input type="button" id="btnDelete" class="btn btn-danger" value="Kategori Sil" />
+            <input type="button" id="btnUpdate" class="btn btn-warning" value="Kategori Güncelle" />
+
+            <hr />
+
+            <input type="text" id="txtSearch" class="form-control genislik" placeholder="Arama Yapınız" />
+
+            </div>
+
+            <div class="col-6">
+                <table id="tab1" class="table table-hover">
+                    <tr>
+                        <th>Kategori ID</th>
+                        <th>Kategori Ismi</th>
+                        <th>Kaytegori Aciklama</th>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+
+        
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
